@@ -1,4 +1,11 @@
 <form [formGroup]="myForm">
-	<input type="text" OnlyNumber placeholder="Enter postal code" formControlName="postalCode" />
-  <p>{{myForm.get('postalCode').value}}</p>
+  <input
+    type="text"
+    placeholder="Enter postal code"
+    formControlName="postalCode"
+  />
+  <p>{{ myForm.get('postalCode').value }}</p>
 </form>
+
+<p OnlyNumber>123124214124124124</p>
+<p>123124214124124124</p>
